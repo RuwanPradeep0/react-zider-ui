@@ -1,0 +1,41 @@
+{
+  "name": "react-zider-ui",
+  "version": "1.1.3",
+  "description": "reusable pro react components package",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "react components",
+    "components",
+    "animation header",
+    "animated-text",
+    "typing-animation",
+    "Auto-typing",
+    "gradient-text",
+    "text-transition",
+    "text-loop",
+    "text-carousel",
+    "react-text-transition"
+  ],
+  "author": "Ruwan Pradeep",
+  "license": "ISC",
+  "peerDependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.24.5",
+    "@babel/core": "^7.24.5",
+    "@babel/preset-env": "^7.24.5",
+    "@babel/preset-react": "^7.24.1",
+    "rollup": "^2.79.1",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4"
+  }
+}
