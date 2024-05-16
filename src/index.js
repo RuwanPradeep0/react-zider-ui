@@ -1,1 +1,2 @@
-export {default} from './components/Gradient/infiniteTypewriter/InfiniteTypewriter.jsx'
+export { default as MultiSelectDropdown } from './components/multiSelectDropdown/MultiSelectDropdown.jsx';
+export { default as InfiniteTypewriter } from './components/infiniteTypewriter/InfiniteTypewriter.jsx';
