@@ -23,5 +23,4 @@ treeshake: true,
     resolve(),
     external(),
   ],
-  extensions: ['.js', '.jsx'],
 };
